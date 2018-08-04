@@ -1,0 +1,34 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "new": "yubisaki post -p docs/blog --page"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewiscutey/vuepress-template.git"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-template",
+    "vuepress-theme",
+    "vuepress-theme-yubisaki"
+  ],
+  "author": "lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewiscutey/vuepress-template/issues"
+  },
+  "homepage": "https://github.com/lewiscutey/vuepress-template#readme",
+  "dependencies": {
+    "vuepress": "^0.13.1",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress-theme-yubisaki": "^1.1.9"
+  }
+}
