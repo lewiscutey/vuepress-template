@@ -1,7 +1,7 @@
 ---
 title: hello
 date: '2018-08-04 16:46:31'
-tag: 'js'
+tag: ['js', 'vue']
 meta:
   -
     name: description

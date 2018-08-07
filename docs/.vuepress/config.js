@@ -20,7 +20,7 @@ module.exports = {
         date_format: 'yyyy-MM-dd HH:mm:ss',
         tags: true,
         nav: [
-            {text: 'Blog', link: '/blog/'},
+            {text: 'Blog', link: '/blog/', root: true},
             {text: 'About', link: '/about/'},
             {text: 'CSDN', link: 'http://www.cnblogs.com/lewiscutey/'},
             {text: 'Github', link: 'https://github.com/lewiscutey'},

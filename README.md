@@ -3,7 +3,7 @@
 > npm run dev
 vuepress dev docs
 
-> npm run new
+> npm run new -- XX.md
 yubisaki post -p docs/blog --page
 
 > npm run deploy
