@@ -19,6 +19,14 @@ module.exports = {
         per_page: 6,
         date_format: 'yyyy-MM-dd HH:mm:ss',
         tags: true,
+        comment: {
+            clientID: '',
+            clientSecret: '',
+            repo: '',  // blog of repo name
+            owner: '',  // github of name
+            admin: '', // github of name
+            distractionFreeMode: false
+        },
         nav: [
             {text: 'Blog', link: '/blog/', root: true},
             {text: 'About', link: '/about/'},
